@@ -1,0 +1,18 @@
+.divTable{
+	display: table;
+	}
+.divRow{
+	display: table-row;
+}
+.divCell{
+	display: table-cell;
+        border: solid;
+        border-width: thin;
+        padding-left: 5px;
+        padding-right: 5px;
+}
+.headRow{
+	display: table-row;
+	font-weight: bold;
+	text-align: center;
+}
