@@ -1,0 +1,171 @@
+.bgcolor{
+	background-color: #93a5c1;
+}
+.top_header{
+	padding: 20px;
+	background-color: lightgray;
+	height: 60px;
+}
+
+
+.left_header{
+	float: left;
+	font-size: 25px;
+	
+}
+.left_header ul {
+	list-style-type: none;
+	margin: 0;
+	margin-right: 0px;
+	margin-left: 0px;
+	padding: 10px;
+	overflow: hidden;
+	display: inline;
+}
+.left_header li{
+	display: inline;
+	margin-left: 10px;
+}
+.right_header{
+	float: right;
+	font-size: 25px;
+}
+.right_header li{
+	display: inline;
+	margin-left: 10px;
+}
+.right_header label {
+	margin-left: 6px;
+	font-size: 20px;
+
+}
+
+
+.bottom_header{
+	padding: 20px;
+	background-color: #79b59e;
+	height: 70px;
+	margin-bottom: 10px;
+}
+
+
+.left_header1{
+	float: left;
+}
+
+.left_header1 ul {
+	list-style-type: none;
+	margin: 0;
+	margin-right: 0px;
+	margin-left: 0px;
+	padding: 10px;
+	overflow: hidden;
+	display: inline;
+}
+.left_header1 img{
+	width: 60px;
+	height: 40px;
+	float: left;
+	margin-bottom: 5px,
+	margin-top: 5px;
+}
+.right_header1{
+	float: right;
+}
+.right_header1 li{
+	display: inline;
+	margin-left: 10px;
+}
+.right_header1 label {
+	margin-left: 6px;
+
+}
+.drop_down {
+
+	cursor: pointer;
+}
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: #f1f1f1;
+	min-width: 160px;
+	overflow: auto;
+	box-shadow: none;
+	z-index: 1;
+}
+.dropdown-content a {
+	color: black;
+	padding: 12px 16px;
+	text-decoration: none;
+	display: block;
+}
+.show {display: block;
+}
+
+.dropdown {
+	position: relative;
+	display: inline-block;
+}
+
+
+.dropdown1 {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown1:hover .dropdown-content {display: block;}
+
+.dropdown1:hover .dropbtn {background-color: #3e8e41;}
+
+.tab_div{
+
+}
+.tab-content{
+	padding: 5px;
+	top: 0;
+}
+.tab-content img{
+	height: 80%;
+	width: 30%;
+	display: block;
+	margin-right: auto;
+	margin-left: auto;
+}
+.search-container {
+	float: right;
+}
+.search-container button {
+	float: right;
+	padding: 6px 10px;
+	margin-right: 16px;
+	background: #ddd;
+	font-size: 10px;
+	border: none;
+	cursor: pointer;
+}
+.image_container img{
+width: 100%;
+}
+
+.image_container {
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: auto;
+	position: absolute;
+	height: 900px;
+	transition: all 1s;
+}
+.image_box{
+ position: relative;
+ height: 500px;
+ border: 1px solid black;
+ overflow: hidden;
+}
+.alert{
+	position: fixed;
+	top: 5px;
+	right: 5px; 
+}
