@@ -24,20 +24,11 @@ $(document).ready(function(){
 	$('[data-toggle="tooltip"]').tooltip();
 	$('.search_btn').click(function(){
 		var input_value = document.getElementById("search").value;
+    console.log(input_value);
 		if(input_value.length > 0){
-			$("body").append( $(
-				`<div class="alert alert-success alert-dismissible fade in">
-				<a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
-				You are Search Somthing....
-				</div>`
-			));
+			$('.success-alt').toggle();
 		}else{
-			$("body").append( $(
-				`<div class="alert alert-danger alert-dismissible fade in">
-				<a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
-				Enter Something To Search....
-				</div>`
-			));
+			$('.danger-alt').toggle();
 		}
 	});
 });

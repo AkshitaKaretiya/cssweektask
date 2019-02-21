@@ -164,8 +164,11 @@ width: 100%;
  border: 1px solid black;
  overflow: hidden;
 }
-.alert{
+.success-alt,
+.danger-alt{
+	display: none;
 	position: fixed;
 	top: 5px;
 	right: 5px; 
 }
+
