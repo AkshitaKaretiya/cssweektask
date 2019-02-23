@@ -1,0 +1,174 @@
+body {
+	padding: 0;
+	margin: 0;
+}
+.header1{
+	background-color: #1c387f;
+	height: 40px;
+	
+}
+.mdc-list{
+	display: inline;
+}
+.mdc-list-item{
+	color: white;
+	display: inline;
+}
+.inr_btn{
+	background-color: white;
+	border: none;
+	
+}
+.signup_btn{
+	background-color: #edb446;
+	border: none;
+	
+}
+.register_btn{
+	background-color: #e36647;
+	border: none;
+	
+}
+.mdc-button--dense{
+	border-radius: 8px;
+	margin-bottom:  7px;	
+}
+.header2{
+	background-color: white;
+	height: 80px;
+}
+.logo_img{
+	width: 60px;
+	height: 60px;
+	margin-left: 120px;
+	margin-top: 3px;
+	margin-bottom: 2px;
+}
+.header2ul{
+	
+	margin-left: 190px;
+}
+.header2txt{
+	color: black;
+}
+.header3{
+	background-color: #3f8cc8;
+	height: 50PX;
+}
+.bgimage{
+	background-image: url("../image/1.jpg"); 
+	height: 700px;
+	width:100%;
+	margin-left:0;
+	margin-right: 0;
+	background-image: cover;
+	background-size: 100%;
+	background-repeat: no-repeat;
+	position: relative;
+
+	}
+.mdc-typography--headline6 {
+	color: black;
+}
+.top1{
+
+    background-color: orange;
+    text-align: center;
+    border: 1px solid orange;
+    color: white;
+    text-shadow: 1px 1px;
+  }
+  .content1{
+
+    border: 1px solid orange;
+    padding: 8px;
+  }
+  .foot1{
+
+    color: orange;
+  }
+  .top2{
+
+    background-color: maroon;
+    text-align: center;
+    border: 1px solid maroon;
+    color: white;
+    text-shadow: 1px 1px;
+  }
+  .content2{
+
+    border: 1px solid maroon;
+    padding: 8px;
+  }
+  .foot2{
+
+    color: maroon;
+  }
+  .top3{
+
+    background-color: #3a7fbe;
+    text-align: center;
+    border: 1px solid #3a7fbe;
+    color: white;
+    text-shadow: 1px 1px;
+  }
+  .content3{
+
+    border: 1px solid #3a7fbe;
+    padding: 8px;
+  }
+  .foot3{
+
+    color: lightblue;
+  }
+  .top4{
+
+    background-color: #7D3C98;
+    text-align: center;
+    border: 1px solid #7D3C98;
+    color: white;
+    text-shadow: 1px 1px;
+  }
+  .content4{
+
+    border: 1px solid #7D3C98;
+    padding: 8px;
+  }
+  .foot4{
+
+    color: #7D3C98;
+  }
+  .top5{
+
+    background-color: #000080;
+    text-align: center;
+    border: 1px solid #000080;
+    color: white;
+    text-shadow: 1px 1px;
+  }
+  .content5{
+
+    border: 1px solid #000080;
+    padding: 8px;
+  }
+  .foot5{
+
+    color: #000080;
+  }
+  .sec3{
+  	background-color: #f3f3f3;
+  }
+  .sec3img{
+  	height: 150px;
+  	width: 300px;
+  	border-radius: 50%; 
+  }
+  .readmore_btn{
+  	background-color: #dd3b3e;
+  	color: white;
+  	border: none;
+  }
+
+.mdc-layout-grid {
+		padding : 0px;
+}
