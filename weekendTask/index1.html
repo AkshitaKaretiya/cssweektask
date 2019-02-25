@@ -10,32 +10,45 @@
 </head>
 <body>
 	<!-- <header class="mdc-top-app-bar  "> -->
-		<div class="mdc-top-app-bar__row header1">
-			<section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-start">
-				<ul class="mdc-list">
-					<li class="mdc-list-item" tabindex="0">
-						<span class="mdc-list-item__text"> Call 1800 22 7979</span>
-					</li>
-					<li class="mdc-list-item" >
-						<span class="mdc-list-item__text">Select currency: </span>
-					</li>
-					<li class="mdc-list-item">
-						<button class="mdc-button--dense inr_btn">
-							<span class="mdc-button__label">INR</span><i class="material-icons mdc-list-item__graphic" aria-hidden="true">keyboard_arrow_down</i>
-						</button>
-					</li>
-					<li class="mdc-list-item" >
-						<button class="mdc-button--dense signup_btn">
-							<span class="mdc-button__label">SIGN IN</span>
-						</button>
-					</li>
-					<li class="mdc-list-item" > 
-						<button class="mdc-button--dense register_btn">
-							<span class="mdc-button__label">REGISTER</span>
-						</button>
-					</li>
-				</ul>
-			</section>
+		<div class="top_header">
+		<ul class="mdc-list selector">
+			<li class="mdc-list-item" tabindex="0">
+				<span class="mdc-list-item__text top_header_list">Call 1800 22 7979</span>
+			</li>
+			<li class="mdc-list-item">
+				<span class="mdc-list-item__text top_header_list">Select Currency:</span>
+			</li>
+			<!-- 		<li class="mdc-list-item"> -->
+				<!-- <button class="mdc-button--dense">
+					<span class="mdc-button__label">INR
+						<i class="material-icons mdc-button__icon" aria-hidden="true">keyboard_arrow_down</i></span>
+					-->		<div class="mdc-select">
+						<i class="mdc-select__dropdown-icon"></i>
+						<select class="mdc-select__native-control">
+							<option value="" disabled selected></option>
+							<option value="1000">1000</option>                     
+							<option value="3000">3000</option>
+							<option value="5000">5000</option>
+						</select> 
+						<label class="mdc-floating-label">INR</label>
+
+					</div>	
+					<!-- </button> -->
+					<!-- </li> -->
+					<!-- 				<li class="mdc-list-item"> -->
+						<div class="right_header">
+							<button class="mdc-button--dense signin">
+								<span class="mdc-button__label">Sign In</span>
+							</button>
+			<!-- </li>
+				<li class="mdc-list-item">
+				-->		<button class="mdc-button--dense signup">
+					<span class="mdc-button__label">Registration</span>
+				</button>	
+				<!-- </li>
+				-->	</div>
+
+			</ul>
 		</div>
 		<div class="mdc-top-app-bar__row header2">
 			<section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-start">
@@ -159,14 +172,27 @@
 				</div>
 			</div>
 		</div>
-		<div class="mdc-layout-grid sec3">
+			<div class="mdc-layout-grid our_mission">
 			<div class="mdc-layout-grid__inner" >
 				<div class="mdc-layout-grid__cell--span-4">
+				</div>
+				<div class="mdc-layout-grid__cell--span-8">
+					<h1><p class="our"> OUR <span class="mission"> MISSION </span></p></h1>
+			</div>
+				</div>
+				
+		</div>
+		<div class="mdc-layout-grid sec3">
+			<div class="mdc-layout-grid__inner" >
+				<div class="mdc-layout-grid__cell--span-1">
+				</div>
+				<div class="mdc-layout-grid__cell--span-3">
 					<div class="mdc-image-list__image-aspect-container">
 						<img class="mdc-image-list__image sec3img" src="image/darshan1.jpg">
 					</div>
 				</div>
-				<div class="mdc-layout-grid__cell--span-8">
+				<div class="mdc-layout-grid__cell--span-7">
+					
 					<h2>About Us</h2>
 					<p>Darshan Raval, a well known SINGER in Bollywood music industry nowadays.Basically, He's from Gujrat. He was runner up in a contest “India's Raw Star “. His song “Pehli Mohobbat “ gave him too much popularity among youth. Further being a YouTuber He uploads songs on his official channel DarshanRavalDZ. He is a playback singer in Bollywood industry too.</p>
 					<p>Darshan Raval was a contestant of a Singing reality show in 2015 (doesnt remember its name). He got famous bcoz of his voice and some beautiful recreation of some songs. Although he was 3rd in that show,Rituraj Won that show, but Darshan Raval started becoming famous by his songs. He also sang in bollywood movies and now he is a celebrity</p>
@@ -176,7 +202,221 @@
 						<span class="mdc-button__label">READ MORE</span>
 					</button>
 				</div>
+				<div class="mdc-layout-grid__cell--span-1">
+			    </div>
 
+			</div>
+		</div>
+		<div class="mdc-layout-grid">
+		<div class="mdc-layout-grid__inner">
+			<div class="mdc-layout-grid__cell--span-1"></div>
+			<div class="mdc-layout-grid__cell--span-2"></div>
+			<div class="mdc-layout-grid__cell--span-8">
+				<div class="mdc-layout-grid tab_section">
+					<div class="mdc-layout-grid__inner">
+						<div class="mdc-layout-grid__cell--span-4">
+							<div class="holyday">
+								<label>(3N/4D)</label>
+								<h3 class="holyday_txt1">Rs.6800</h3>
+								<p class="mdc-typography--caption">Per Person</p>
+								<p style="text-align: center;">Bali 4 Star Package for 4 Days</p>
+								<center><button class="mdc-button--dense holyday_btn1">
+									<span class="mdc-button__label ">VIEW MORE</span>
+								</button></center>
+							</div>
+
+						</div>
+						<div class="mdc-layout-grid__cell--span-4">
+							<div class="holyday">
+								<label>(3N/4D)</label>
+								<h3 class="holyday_txt2">Rs.6800</h3>
+								<p class="mdc-typography--caption">Per Person</p>
+								<p style="text-align: center;">Bali 4 Star Package for 4 Days</p>
+								<center><button class="mdc-button--dense holyday_btn2">
+									<span class="mdc-button__label ">VIEW MORE</span>
+								</button></center>
+							</div>
+						</div>
+						<div class="mdc-layout-grid__cell--span-4">
+							<div class="holyday">
+								<label>(3N/4D)</label>
+								<h3 class="holyday_txt2">Rs.6800</h3>
+								<p class="mdc-typography--caption">Per Person</p>
+								<p style="text-align: center;">Bali 4 Star Package for 4 Days</p>
+								<center><button class="mdc-button--dense holyday_btn3">
+									<span class="mdc-button__label ">VIEW MORE</span>
+								</button></center>
+							</div>
+						</div>
+						<div class="mdc-layout-grid__cell--span-4">
+							<div class="holyday">
+								<label>(3N/4D)</label>
+								<h3 class="holyday_txt2">Rs.6800</h3>
+								<p class="mdc-typography--caption">Per Person</p>
+								<p style="text-align: center;">Bali 4 Star Package for 4 Days</p>
+								<center><button class="mdc-button--dense holyday_btn4">
+									<span class="mdc-button__label ">VIEW MORE</span>
+								</button></center>
+							</div>
+						</div>
+						<div class="mdc-layout-grid__cell--span-4">
+							<div class="holyday">
+								<label>(3N/4D)</label>
+								<h3 class="holyday_txt2">Rs.6800</h3>
+								<p class="mdc-typography--caption">Per Person</p>
+								<p style="text-align: center;">Bali 4 Star Package for 4 Days</p>
+								<center><button class="mdc-button--dense holyday_btn5">
+									<span class="mdc-button__label ">VIEW MORE</span>
+								</button></center>
+							</div>
+						</div>
+						<div class="mdc-layout-grid__cell--span-4">
+							<div class="holyday">
+								<label>(3N/4D)</label>
+								<h3 class="holyday_txt2">Rs.6800</h3>
+								<p class="mdc-typography--caption">Per Person</p>
+								<p style="text-align: center;">Bali 4 Star Package for 4 Days</p>
+								<center><button class="mdc-button--dense holyday_btn6">
+									<span class="mdc-button__label ">VIEW MORE</span>
+								</button></center>
+							</div>
+						</div>
+						<div class="mdc-layout-grid__cell--span-4">
+							<div class="holyday">
+								<label>(3N/4D)</label>
+								<h3 class="holyday_txt2">Rs.6800</h3>
+								<p class="mdc-typography--caption">Per Person</p>
+								<p style="text-align: center;">Bali 4 Star Package for 4 Days</p>
+								<center><button class="mdc-button--dense holyday_btn1">
+									<span class="mdc-button__label ">VIEW MORE</span>
+								</button></center>
+							</div>
+						</div>
+						<div class="mdc-layout-grid__cell--span-4">
+							<div class="holyday">
+								<label>(3N/4D)</label>
+								<h3 class="holyday_txt2">Rs.6800</h3>
+								<p class="mdc-typography--caption">Per Person</p>
+								<p style="text-align: center;">Bali 4 Star Package for 4 Days</p>
+								<center><button class="mdc-button--dense holyday_btn2">
+									<span class="mdc-button__label ">VIEW MORE</span>
+								</button></center>
+							</div>
+						</div>
+						<div class="mdc-layout-grid__cell--span-4">
+							<div class="holyday">
+								<label>(3N/4D)</label>
+								<h3 class="holyday_txt2">Rs.6800</h3>
+								<p class="mdc-typography--caption">Per Person</p>
+								<p style="text-align: center;">Bali 4 Star Package for 4 Days</p>
+								<center><button class="mdc-button--dense holyday_btn3">
+									<span class="mdc-button__label ">VIEW MORE</span>
+								</button></center>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="mdc-layout-grid__cell--span-1"></div>
+		</div>
+	</div>
+
+
+		<div class="mdc-layout-grid">
+			<div class="mdc-layout-grid__inner">
+				<div class="mdc-layout-grid__cell--span-4"></div>
+				<div class="mdc-layout-grid__cell--span-8">
+					<h1 class="mdc-typography--headline4">Recent Traveller <span style="color:#951545;">REVIEWS</span></h1>
+				</div>
+			</div>
+		</div>
+		<div class="mdc-layout-grid footer">
+			<div class="mdc-layout-grid__inner">
+				<div class="mdc-layout-grid__cell--span-2">
+
+				</div>
+				<div class="mdc-layout-grid__cell--span-3">
+
+					<p class="mdc-typography--headline6 footer_about">ABOUT US</p>
+					<p class="f_about_p"> Darshan Raval was a contestant of a Singing reality show in 2015 (doesnt remember its name). He got famous bcoz of his voice and some beautiful recreation of some songs. Although he was 3rd in that show,Rituraj Won that show, but Darshan Raval started becoming famous by his songs.</p>
+					<div class="mdc-layout-grid__inner">
+						<div class="mdc-layout-grid__cell--span-2">
+							<img src="image/map.png" class="footer_img">
+						</div>
+						<div class="mdc-layout-grid__cell--span-10">
+							<p class="f_about_p">Street addresses: Karetiya nagar, vasavad rosd, Babra, Amreli .
+							Pinccode: 365421</p>
+						</div>	
+					</div>	
+				</div>
+				<div class="mdc-layout-grid__cell--span-1"></div>
+				<div class="mdc-layout-grid__cell--span-6">
+					<p class="mdc-typography--headline6 footer_destination">OUR DESTINATIONS</p>
+					<div class="mdc-layout-grid__inner">
+						<div class="mdc-layout-grid__cell--span-2 f_margin">
+							<p class="mdc-typography--subtitle f_title1">EUROPE</p>
+							<p class="f_about_p"><label class="f_title1">></label> Austria</p>
+							<p class="f_about_p"><label class="f_title1">></label> India</p>
+							<p class="f_about_p"><label class="f_title1">></label> New York</p>
+							<p class="f_about_p"><label class="f_title1">></label> Orlando</p>
+							<p class="f_about_p"><label class="f_title1">></label> Russia</p>
+							<p class="f_about_p"><label class="f_title1">></label> Spain</p>
+							<p class="f_about_p"><label class="f_title1">></label>Switzerland</p>
+							<p class="f_about_p"><label class="f_title1">></label> France</p>
+						</div>
+						<div class="mdc-layout-grid__cell--span-2  f_margin">
+							<p class="mdc-typography--subtitle footer_destination">INDIA</p>
+							<p class="f_about_p"><label class="footer_destination">></label> Austria</p>
+							<p class="f_about_p"><label class="footer_destination">></label> India</p>
+							<p class="f_about_p"><label class="footer_destination">></label> New York</p>
+							<p class="f_about_p"><label class="footer_destination">></label> Orlando</p>
+							<p class="f_about_p"><label class="footer_destination">></label> Russia</p>
+							<p class="f_about_p"><label class="footer_destination">></label> Spain</p>
+							<p class="f_about_p"><label class="footer_destination">></label>Switzerland</p>
+							<p class="f_about_p"><label class="footer_destination">></label> France</p>
+							<p class="f_about_p"><label class="f_title1">></label> New York</p>
+							<p class="f_about_p"><label class="f_title1">></label> Orlando</p>
+						</div>
+						<div class="mdc-layout-grid__cell--span-2  f_margin">
+							<p class="mdc-typography--subtitle f_title3">USA</p>
+							<p class="f_about_p"><label class="f_title3">></label> Austria</p>
+							<p class="f_about_p"><label class="f_title3">></label> India</p>
+							<p class="f_about_p"><label class="f_title3">></label> New York</p>
+							<p class="f_about_p"><label class="f_title3">></label> Orlando</p>
+							<p class="f_about_p"><label class="f_title3">></label>Switzerland</p>
+							<p class="f_about_p"><label class="f_title3">></label> France</p>
+						</div>
+						<div class="mdc-layout-grid__cell--span-2  f_margin">
+							<p class="mdc-typography--subtitle f_title4">FAR EAST</p>
+							<p class="f_about_p"><label class="f_title4">></label> Austria</p>
+							<p class="f_about_p"><label class="f_title4">></label> India</p>
+							<p class="f_about_p"><label class="f_title4">></label> New York</p>
+							<p class="f_about_p"><label class="f_title4">></label> Orlando</p>
+							<p class="f_about_p"><label class="f_title4">></label> Russia</p>
+							<p class="f_about_p"><label class="f_title4">></label> Spain</p>
+							<p class="f_about_p"><label class="f_title4">></label>Switzerland</p>
+							<p class="f_about_p"><label class="f_title4">></label> France</p>
+							<p class="f_about_p"><label class="f_title5">></label> Russia</p>
+							<p class="f_about_p"><label class="f_title5">></label> Spain</p>
+						</div>
+						<div class="mdc-layout-grid__cell--span-4  f_margin">
+							<p class="mdc-typography--subtitle f_title5">AFRICA</p>
+							<p class="f_about_p"><label class="f_title5">></label> Austria</p>
+							<p class="f_about_p"><label class="f_title5">></label> India</p>
+							<p class="f_about_p"><label class="f_title5">></label> New York</p>
+							<p class="f_about_p"><label class="f_title5">></label> Orlando</p>
+							<p class="mdc-typography--subtitle f_title6">MIDDLE EAST</p>
+							<p class="f_about_p"><label class="f_title6">></label> Russia</p>
+							<p class="f_about_p"><label class="f_title6">></label> Spain</p>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<div class="mdc-layout-grid__inner footer_bottom">
+				<div class="mdc-layout-grid__cell--span-12">
+					<center><p>@ 2018 TMG.All Rights Reserved</p></center>
+				</div>
 			</div>
 		</div>
 	</body>
