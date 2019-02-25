@@ -10,45 +10,46 @@
 </head>
 <body>
 	<!-- <header class="mdc-top-app-bar  "> -->
-		<div class="top_header">
-		<ul class="mdc-list selector">
-			<li class="mdc-list-item" tabindex="0">
-				<span class="mdc-list-item__text top_header_list">Call 1800 22 7979</span>
-			</li>
-			<li class="mdc-list-item">
-				<span class="mdc-list-item__text top_header_list">Select Currency:</span>
-			</li>
-			<!-- 		<li class="mdc-list-item"> -->
-				<!-- <button class="mdc-button--dense">
-					<span class="mdc-button__label">INR
-						<i class="material-icons mdc-button__icon" aria-hidden="true">keyboard_arrow_down</i></span>
-					-->		<div class="mdc-select">
-						<i class="mdc-select__dropdown-icon"></i>
-						<select class="mdc-select__native-control">
-							<option value="" disabled selected></option>
-							<option value="1000">1000</option>                     
-							<option value="3000">3000</option>
-							<option value="5000">5000</option>
-						</select> 
-						<label class="mdc-floating-label">INR</label>
-
-					</div>	
-					<!-- </button> -->
-					<!-- </li> -->
-					<!-- 				<li class="mdc-list-item"> -->
-						<div class="right_header">
-							<button class="mdc-button--dense signin">
-								<span class="mdc-button__label">Sign In</span>
-							</button>
-			<!-- </li>
+		<div class=" mdc-top-app-bar__row top_header">
+			<ul class="mdc-list selector">
+				<li class="mdc-list-item" tabindex="0">
+					<span class="mdc-list-item__text top_header_list">Call 1800 22 7979</span>
+				</li>
 				<li class="mdc-list-item">
-				-->		<button class="mdc-button--dense signup">
-					<span class="mdc-button__label">Registration</span>
-				</button>	
-				<!-- </li>
-				-->	</div>
-
+					<span class="mdc-list-item__text top_header_list">Select Currency:</span>
+				</li>
 			</ul>
+				<div class="mdc-select">
+					<!-- <i class="mdc-select__expand_more"></i> -->
+
+					<button class="mdc-button--dense inr_btn">
+						<span class="inr_lbl"> INR </span>
+						<i class="material-icons mdc-list-item__graphic" aria-hidden="true">expand_more</i>
+					</button>
+					
+					<!-- <select class="mdc-select__native-control">
+						<option value="" disabled selected></option>
+						<option value="1000">rs</option>                     
+						<option value="3000">pound</option>
+						<option value="5000">dolar</option>
+					</select>  -->
+					
+					<!-- <label class="mdc-floating-label">INR</label> -->
+
+				</div>	
+
+				<div class="right_header">
+						<section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-end">
+					<button class="mdc-button--dense signin">
+						<span class="mdc-button__label">Sign In</span>
+					</button>
+					<button class="mdc-button--dense signup">
+						<span class="mdc-button__label">Registration</span>
+					</button>	
+				</section>
+
+				</div>
+
 		</div>
 		<div class="mdc-top-app-bar__row header2">
 			<section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-start">
@@ -79,22 +80,45 @@
 			</section>
 		</div>
 		<div class="mdc-top-app-bar__row header3">
-			<section class="mdc-top-app-bar__section mdc-top-app-bar__section--align-start">
-				<ul class="mdc-list">
-					
-					
-				</ul>
-			</section>
-		</div>
-	<!-- </header> -->
-	<div class="mdc-layout-grid">
-		<div class="mdc-layout-grid__inner bgimage">
-			<div class="mdc-layout-grid__cell--span-4">
-				<span class="mdc-list-item__text mdc-typography--headline6">SUMMER OFFER</span><br>
-				<p class="mdc-typography--headline6">email is empty</p>
+			<div class="mdc-text-field mdc-text-field--no-label">
+				<i class="material-icons mdc-list-item__graphic search_icon">search</i>
+				<input type="text" class="mdc-text-field__input" placeholder="Where would you like to go?	" aria-label="Label">
+				<button class="mdc-button--dense search">
+					<span class="mdc-button__label">Let's Go</span>
+				</button>
+				<div class="mdc-line-ripple"></div>
 			</div>
 		</div>
+
+		
+		<!-- </header 3> -->
+
+
 		<div class="mdc-layout-grid">
+			<div class="mdc-layout-grid__inner bgimage">
+				<div class="mdc-layout-grid__cell--span-2"></div>
+				<div class="mdc-layout-grid__cell--span-4">
+					<div class="img_content">
+						<h1 class="mdc-typography--headline4 summer">SUMMER OFFERS</h1>
+						<p>Darshan Raval, a well known SINGER in Bollywood music industry nowadays.Basically, He's from Gujrat. He was runner up in a contest “India's Raw Star “. His song “Pehli Mohobbat “ gave him too much popularity among youth. Further being a YouTuber He uploads songs on his official channel DarshanRavalDZ. He is a playback singer in Bollywood industry too..</p>
+					</div>
+				</div>
+
+			</div>
+			<!-- <img class="mdc-image-list__image" src="images/2.png">	 -->
+		</div>
+		<div class="mdc-layout-grid sec2destin">
+			<div class="mdc-layout-grid__inner" >
+				<div class="mdc-layout-grid__cell--span-4">
+				</div>
+				<div class="mdc-layout-grid__cell--span-8">
+					<h1><p class="travel"> Eeatured Travel <span class="desti"> DESTINATION </span></p></h1>
+				</div>
+			</div>
+
+		</div>
+
+		<div class="mdc-layout-grid sec2">
 			<div class="mdc-layout-grid__inner">
 				<div class="mdc-layout-grid__cell--span-1">
 				</div>
@@ -172,16 +196,7 @@
 				</div>
 			</div>
 		</div>
-			<div class="mdc-layout-grid our_mission">
-			<div class="mdc-layout-grid__inner" >
-				<div class="mdc-layout-grid__cell--span-4">
-				</div>
-				<div class="mdc-layout-grid__cell--span-8">
-					<h1><p class="our"> OUR <span class="mission"> MISSION </span></p></h1>
-			</div>
-				</div>
-				
-		</div>
+		
 		<div class="mdc-layout-grid sec3">
 			<div class="mdc-layout-grid__inner" >
 				<div class="mdc-layout-grid__cell--span-1">
@@ -192,144 +207,297 @@
 					</div>
 				</div>
 				<div class="mdc-layout-grid__cell--span-7">
-					
+					<center><h1><p class="our"> OUR <span class="mission"> MISSION </span></p></h1></center>
 					<h2>About Us</h2>
 					<p>Darshan Raval, a well known SINGER in Bollywood music industry nowadays.Basically, He's from Gujrat. He was runner up in a contest “India's Raw Star “. His song “Pehli Mohobbat “ gave him too much popularity among youth. Further being a YouTuber He uploads songs on his official channel DarshanRavalDZ. He is a playback singer in Bollywood industry too.</p>
 					<p>Darshan Raval was a contestant of a Singing reality show in 2015 (doesnt remember its name). He got famous bcoz of his voice and some beautiful recreation of some songs. Although he was 3rd in that show,Rituraj Won that show, but Darshan Raval started becoming famous by his songs. He also sang in bollywood movies and now he is a celebrity</p>
-					<p>Darshan Raval was a contestant of a Singing reality show in 2015 (doesnt remember its name). He got famous bcoz of his voice and some beautiful recreation of some songs. Although he was 3rd in that show,Rituraj Won that show, but Darshan Raval started becoming famous by his songs. He also sang in bollywood movies and now he is a celebrity</p>
+					 
 
 					<button class="mdc-button--dense readmore_btn">
 						<span class="mdc-button__label">READ MORE</span>
 					</button>
 				</div>
 				<div class="mdc-layout-grid__cell--span-1">
-			    </div>
+				</div>
 
 			</div>
 		</div>
-		<div class="mdc-layout-grid">
-		<div class="mdc-layout-grid__inner">
-			<div class="mdc-layout-grid__cell--span-1"></div>
-			<div class="mdc-layout-grid__cell--span-2"></div>
-			<div class="mdc-layout-grid__cell--span-8">
-				<div class="mdc-layout-grid tab_section">
-					<div class="mdc-layout-grid__inner">
-						<div class="mdc-layout-grid__cell--span-4">
-							<div class="holyday">
-								<label>(3N/4D)</label>
-								<h3 class="holyday_txt1">Rs.6800</h3>
-								<p class="mdc-typography--caption">Per Person</p>
-								<p style="text-align: center;">Bali 4 Star Package for 4 Days</p>
-								<center><button class="mdc-button--dense holyday_btn1">
-									<span class="mdc-button__label ">VIEW MORE</span>
-								</button></center>
-							</div>
 
+<!-- section 4 -->
+
+
+<div class="mdc-layout-grid">
+		<div class="mdc-layout-grid__inner">
+			<div class="mdc-layout-grid__cell--span-5"></div>
+			<div class="mdc-layout-grid__cell--span-7">
+				<h1 class="mdc-typography--headline4">India <span class="tours">TOURS</span></h1>
+
+			</div>
+		</div>
+	</div>
+
+
+	<div class="mdc-layout-grid">
+		<div class="mdc-layout-grid__inner">
+			<div class="mdc-layout-grid__cell--span-4">
+				<div class="mdc-card demo-card">
+					<div class="mdc-card__primary-action" tabindex="0">
+						<div class="mdc-card__media mdc-card__media--16-9 demo-card__media1">
 						</div>
-						<div class="mdc-layout-grid__cell--span-4">
-							<div class="holyday">
-								<label>(3N/4D)</label>
-								<h3 class="holyday_txt2">Rs.6800</h3>
-								<p class="mdc-typography--caption">Per Person</p>
-								<p style="text-align: center;">Bali 4 Star Package for 4 Days</p>
-								<center><button class="mdc-button--dense holyday_btn2">
-									<span class="mdc-button__label ">VIEW MORE</span>
-								</button></center>
-							</div>
+						<div class="demo-card__primary">
+							<h2 class="demo-card__title mdc-typography--headline6">Andaman Tour Packages</h2>
+							<h3 class="demo-card__subtitle mdc-typography--subtitle2"><span class="arrow1">></span class="arrow1">Port Blair  <span class="arrow1">></span>HaveLock  <span class="arrow1">></span>Neil Isaland</h3>
 						</div>
-						<div class="mdc-layout-grid__cell--span-4">
-							<div class="holyday">
-								<label>(3N/4D)</label>
-								<h3 class="holyday_txt2">Rs.6800</h3>
-								<p class="mdc-typography--caption">Per Person</p>
-								<p style="text-align: center;">Bali 4 Star Package for 4 Days</p>
-								<center><button class="mdc-button--dense holyday_btn3">
-									<span class="mdc-button__label ">VIEW MORE</span>
-								</button></center>
-							</div>
-						</div>
-						<div class="mdc-layout-grid__cell--span-4">
-							<div class="holyday">
-								<label>(3N/4D)</label>
-								<h3 class="holyday_txt2">Rs.6800</h3>
-								<p class="mdc-typography--caption">Per Person</p>
-								<p style="text-align: center;">Bali 4 Star Package for 4 Days</p>
-								<center><button class="mdc-button--dense holyday_btn4">
-									<span class="mdc-button__label ">VIEW MORE</span>
-								</button></center>
-							</div>
-						</div>
-						<div class="mdc-layout-grid__cell--span-4">
-							<div class="holyday">
-								<label>(3N/4D)</label>
-								<h3 class="holyday_txt2">Rs.6800</h3>
-								<p class="mdc-typography--caption">Per Person</p>
-								<p style="text-align: center;">Bali 4 Star Package for 4 Days</p>
-								<center><button class="mdc-button--dense holyday_btn5">
-									<span class="mdc-button__label ">VIEW MORE</span>
-								</button></center>
-							</div>
-						</div>
-						<div class="mdc-layout-grid__cell--span-4">
-							<div class="holyday">
-								<label>(3N/4D)</label>
-								<h3 class="holyday_txt2">Rs.6800</h3>
-								<p class="mdc-typography--caption">Per Person</p>
-								<p style="text-align: center;">Bali 4 Star Package for 4 Days</p>
-								<center><button class="mdc-button--dense holyday_btn6">
-									<span class="mdc-button__label ">VIEW MORE</span>
-								</button></center>
-							</div>
-						</div>
-						<div class="mdc-layout-grid__cell--span-4">
-							<div class="holyday">
-								<label>(3N/4D)</label>
-								<h3 class="holyday_txt2">Rs.6800</h3>
-								<p class="mdc-typography--caption">Per Person</p>
-								<p style="text-align: center;">Bali 4 Star Package for 4 Days</p>
-								<center><button class="mdc-button--dense holyday_btn1">
-									<span class="mdc-button__label ">VIEW MORE</span>
-								</button></center>
-							</div>
-						</div>
-						<div class="mdc-layout-grid__cell--span-4">
-							<div class="holyday">
-								<label>(3N/4D)</label>
-								<h3 class="holyday_txt2">Rs.6800</h3>
-								<p class="mdc-typography--caption">Per Person</p>
-								<p style="text-align: center;">Bali 4 Star Package for 4 Days</p>
-								<center><button class="mdc-button--dense holyday_btn2">
-									<span class="mdc-button__label ">VIEW MORE</span>
-								</button></center>
-							</div>
-						</div>
-						<div class="mdc-layout-grid__cell--span-4">
-							<div class="holyday">
-								<label>(3N/4D)</label>
-								<h3 class="holyday_txt2">Rs.6800</h3>
-								<p class="mdc-typography--caption">Per Person</p>
-								<p style="text-align: center;">Bali 4 Star Package for 4 Days</p>
-								<center><button class="mdc-button--dense holyday_btn3">
-									<span class="mdc-button__label ">VIEW MORE</span>
-								</button></center>
+						<div class="mdc-card__action">
+							<div class="mdc-card__action-buttons">
+								<button class="mdc-button--dense btn1">
+									<span class="mdc-button__label">VIEW MORE</span>
+								</button>
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
-			<div class="mdc-layout-grid__cell--span-1"></div>
+			<div class="mdc-layout-grid__cell--span-4">
+				<div class="mdc-card demo-card">
+					<div class="mdc-card__primary-action" tabindex="0">
+						<div class="mdc-card__media mdc-card__media--16-9 demo-card__media2">
+						</div>
+						<div class="demo-card__primary">
+							<h2 class="demo-card__title mdc-typography--headline6">Andaman Tour Packages</h2>
+							<h3 class="demo-card__subtitle mdc-typography--subtitle2"><span class="arrow2">></span>Port Blair  <span class="arrow2">></span>HaveLock  <span class="arrow2">></span>Neil Isaland</h3>
+						</div>
+						<div class="mdc-card__action">
+							<div class="mdc-card__action-buttons">
+								<button class="mdc-button--dense btn2">
+									<span class="mdc-button__label">VIEW MORE</span>
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="mdc-layout-grid__cell--span-4">
+				<div class="mdc-card demo-card">
+					<div class="mdc-card__primary-action" tabindex="0">
+						<div class="mdc-card__media mdc-card__media--16-9 demo-card__media3">
+						</div>
+						<div class="demo-card__primary">
+							<h2 class="demo-card__title mdc-typography--headline6">Andaman Tour Packages</h2>
+							<h3 class="demo-card__subtitle mdc-typography--subtitle2"><span class="arrow3">></span>Port Blair  <span class="arrow3">></span>HaveLock  <span class="arrow3">></span>Neil Isaland</h3>
+						</div>
+						<div class="mdc-card__action">
+							<div class="mdc-card__action-buttons">
+								<button class="mdc-button--dense btn3">
+									<span class="mdc-button__label">VIEW MORE</span>
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="mdc-layout-grid__cell--span-4">
+				<div class="mdc-card demo-card">
+					<div class="mdc-card__primary-action" tabindex="0">
+						<div class="mdc-card__media mdc-card__media--16-9 demo-card__media4">
+						</div>
+						<div class="demo-card__primary">
+							<h2 class="demo-card__title mdc-typography--headline6">Andaman Tour Packages</h2>
+							<h3 class="demo-card__subtitle mdc-typography--subtitle2"><span class="arrow4">></span>Port Blair  <span class="arrow4">></span>HaveLock  <span class="arrow4">></span>Neil Isaland</h3>
+						</div>
+						<div class="mdc-card__action">
+							<div class="mdc-card__action-buttons">
+								<button class="mdc-button--dense btn4">
+									<span class="mdc-button__label">VIEW MORE</span>
+								</button>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="mdc-layout-grid__cell--span-4">
+				<div class="mdc-card demo-card">
+					<div class="mdc-card__primary-action" tabindex="0">
+						<div class="mdc-card__media mdc-card__media--16-9 demo-card__media5">
+						</div>
+						<div class="demo-card__primary">
+							<h2 class="demo-card__title mdc-typography--headline6">Andaman Tour Packages</h2>
+							<h3 class="demo-card__subtitle mdc-typography--subtitle2"><span class="arrow5">></span class="arrow5">Port Blair  <span class="arrow5">></span>HaveLock  <span class="arrow5">></span class="arrow5">Neil Isaland</h3>
+							</div>
+							<div class="mdc-card__action">
+								<div class="mdc-card__action-buttons">
+									<button class="mdc-button--dense btn5">
+										<span class="mdc-button__label">VIEW MORE</span>
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="mdc-layout-grid__cell--span-4">
+					<div class="mdc-card demo-card">
+						<div class="mdc-card__primary-action" tabindex="0">
+							<div class="mdc-card__media mdc-card__media--16-9 demo-card__media6">
+							</div>
+							<div class="demo-card__primary">
+								<h2 class="demo-card__title mdc-typography--headline6">Andaman Tour Packages</h2>
+								<h3 class="demo-card__subtitle mdc-typography--subtitle2"><span class="arrow6">></span>Port Blair <span class="arrow6">></span>HaveLock <span class="arrow6">></span>Neil Isaland</h3>
+							</div>
+							<div class="mdc-card__action">
+								<div class="mdc-card__action-buttons">
+									<button class="mdc-button--dense btn6">
+										<span class="mdc-button__label">VIEW MORE</span>
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
-	</div>
+
 
 
 		<div class="mdc-layout-grid">
+			<div class="mdc-layout-grid__inner">
+				<div class="mdc-layout-grid__cell--span-1"></div>
+				<div class="mdc-layout-grid__cell--span-2"></div>
+				<div class="mdc-layout-grid__cell--span-8">
+					<div class="mdc-layout-grid tab_section">
+						<div class="mdc-layout-grid__inner">
+							<div class="mdc-layout-grid__cell--span-4">
+								<div class="holyday">
+									<label>(3N/4D)</label>
+									<h3 class="holyday_txt1">Rs.6800</h3>
+									<p class="mdc-typography--caption">Per Person</p>
+									<p style="text-align: center;">Bali 4 Star Package for 4 Days</p>
+									<center><button class="mdc-button--dense holyday_btn1">
+										<span class="mdc-button__label ">VIEW MORE</span>
+									</button></center>
+								</div>
+
+							</div>
+							<div class="mdc-layout-grid__cell--span-4">
+								<div class="holyday">
+									<label>(3N/4D)</label>
+									<h3 class="holyday_txt2">Rs.6800</h3>
+									<p class="mdc-typography--caption">Per Person</p>
+									<p style="text-align: center;">Bali 4 Star Package for 4 Days</p>
+									<center><button class="mdc-button--dense holyday_btn2">
+										<span class="mdc-button__label ">VIEW MORE</span>
+									</button></center>
+								</div>
+							</div>
+							<div class="mdc-layout-grid__cell--span-4">
+								<div class="holyday">
+									<label>(3N/4D)</label>
+									<h3 class="holyday_txt2">Rs.6800</h3>
+									<p class="mdc-typography--caption">Per Person</p>
+									<p style="text-align: center;">Bali 4 Star Package for 4 Days</p>
+									<center><button class="mdc-button--dense holyday_btn3">
+										<span class="mdc-button__label ">VIEW MORE</span>
+									</button></center>
+								</div>
+							</div>
+							<div class="mdc-layout-grid__cell--span-4">
+								<div class="holyday">
+									<label>(3N/4D)</label>
+									<h3 class="holyday_txt2">Rs.6800</h3>
+									<p class="mdc-typography--caption">Per Person</p>
+									<p style="text-align: center;">Bali 4 Star Package for 4 Days</p>
+									<center><button class="mdc-button--dense holyday_btn4">
+										<span class="mdc-button__label ">VIEW MORE</span>
+									</button></center>
+								</div>
+							</div>
+							<div class="mdc-layout-grid__cell--span-4">
+								<div class="holyday">
+									<label>(3N/4D)</label>
+									<h3 class="holyday_txt2">Rs.6800</h3>
+									<p class="mdc-typography--caption">Per Person</p>
+									<p style="text-align: center;">Bali 4 Star Package for 4 Days</p>
+									<center><button class="mdc-button--dense holyday_btn5">
+										<span class="mdc-button__label ">VIEW MORE</span>
+									</button></center>
+								</div>
+							</div>
+							<div class="mdc-layout-grid__cell--span-4">
+								<div class="holyday">
+									<label>(3N/4D)</label>
+									<h3 class="holyday_txt2">Rs.6800</h3>
+									<p class="mdc-typography--caption">Per Person</p>
+									<p style="text-align: center;">Bali 4 Star Package for 4 Days</p>
+									<center><button class="mdc-button--dense holyday_btn6">
+										<span class="mdc-button__label ">VIEW MORE</span>
+									</button></center>
+								</div>
+							</div>
+							<div class="mdc-layout-grid__cell--span-4">
+								<div class="holyday">
+									<label>(3N/4D)</label>
+									<h3 class="holyday_txt2">Rs.6800</h3>
+									<p class="mdc-typography--caption">Per Person</p>
+									<p style="text-align: center;">Bali 4 Star Package for 4 Days</p>
+									<center><button class="mdc-button--dense holyday_btn1">
+										<span class="mdc-button__label ">VIEW MORE</span>
+									</button></center>
+								</div>
+							</div>
+							<div class="mdc-layout-grid__cell--span-4">
+								<div class="holyday">
+									<label>(3N/4D)</label>
+									<h3 class="holyday_txt2">Rs.6800</h3>
+									<p class="mdc-typography--caption">Per Person</p>
+									<p style="text-align: center;">Bali 4 Star Package for 4 Days</p>
+									<center><button class="mdc-button--dense holyday_btn2">
+										<span class="mdc-button__label ">VIEW MORE</span>
+									</button></center>
+								</div>
+							</div>
+							<div class="mdc-layout-grid__cell--span-4">
+								<div class="holyday">
+									<label>(3N/4D)</label>
+									<h3 class="holyday_txt2">Rs.6800</h3>
+									<p class="mdc-typography--caption">Per Person</p>
+									<p style="text-align: center;">Bali 4 Star Package for 4 Days</p>
+									<center><button class="mdc-button--dense holyday_btn3">
+										<span class="mdc-button__label ">VIEW MORE</span>
+									</button></center>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="mdc-layout-grid__cell--span-1"></div>
+			</div>
+		</div>
+
+<!-- section last to second -->
+
+		<div class="mdc-layout-grid last2sec">
 			<div class="mdc-layout-grid__inner">
 				<div class="mdc-layout-grid__cell--span-4"></div>
 				<div class="mdc-layout-grid__cell--span-8">
 					<h1 class="mdc-typography--headline4">Recent Traveller <span style="color:#951545;">REVIEWS</span></h1>
 				</div>
 			</div>
+			<div class="mdc-layout-grid__inner">
+				<div class="mdc-layout-grid__cell--span-2"></div>
+				<div class="mdc-layout-grid__cell--span-8">
+					<img class="mdc-image-list__image seclst2img" src="image/john.jpg">
+					<center> <p style="color: red"> JOHN DOE </p>
+					<p >Director, we care your holiday</p>
+					<p >Director, we care your holiday Darshan Raval was a contestant of a Singing reality show in 2015 (doesnt remember its name). He got famous bcoz of his voice and some beautiful recreation of some songs. Although he was 3rd in that show,Rituraj Won that show, but Darshan Raval started becoming famous by his songs.</p>
+				</center>
+				</div>
+
+				<div class="mdc-layout-grid__cell--span-2"></div>
 		</div>
+	</div>
+
+
+
+
 		<div class="mdc-layout-grid footer">
 			<div class="mdc-layout-grid__inner">
 				<div class="mdc-layout-grid__cell--span-2">
