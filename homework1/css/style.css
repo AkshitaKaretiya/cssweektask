@@ -1,0 +1,36 @@
+
+.mdc-image-list--masonry {
+    display: block;
+}
+.mdc-image-list {
+    flex-wrap: wrap;
+    margin: 0 auto;
+    padding: 0;
+}
+.masonry-image-list {
+    column-count: 5;
+    /*column-gap: 16px;*/
+    max-width: 900px;
+}
+
+.masonry-image-list .mdc-image-list__item {
+    margin-bottom: 16px;
+
+}
+@media(max-width: 890px){
+	.masonry-image-list {
+		column-count: 4;
+		max-width: 850px;
+	}
+}
+@media(max-width: 730px){
+	.masonry-image-list {
+		column-count: 3;
+		max-width: 850px;
+	}
+}
+@media(max-width: 500px){
+	.masonry-image-list {
+		column-count: 2;
+			}
+}
