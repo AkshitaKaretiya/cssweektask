@@ -7,7 +7,7 @@
 
 const menu = new mdc.menu.MDCMenu.attachTo(document.querySelector('.mdc-menu'));
 $('#menu').on('click',function(evt){
-	menu.open = true;
+	menu.open = !menu.open;
 	evt.preventDefault();
 	console.log("accepted");
 
