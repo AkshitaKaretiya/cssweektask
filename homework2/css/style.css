@@ -1,0 +1,26 @@
+
+.c1{
+	background-color:gray;
+}
+/*.mdc-snackbar{
+	position: 
+}*/
+
+.mdc-snackbar__surface{
+	opacity: 1;
+}
+.mdc-chip{
+	width: 100px;
+}
+.mdc-button--dense{
+	border-radius: 5px;
+	border: none;
+	background-color: lightgray;
+}
+.mdc-snackbar{
+	display: hidden;
+}
+.mdc-menu-surface{
+	margin-top: 89px;
+    margin-left: 28px;
+}

@@ -1,0 +1,165 @@
+<html>
+<head>
+	<title>home 2</title>
+	<link rel="stylesheet" type="text/css" href="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.css">
+	<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons"> 
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<!-- material menu -->
+<!-- 
+
+	<div class="mdc-layout-grid">
+		<div class="mdc-layout-grid__inner">
+			<div class="mdc-layout-grid__cell--span-4"></div>
+			<div class="mdc-layout-grid__cell--span-5">
+				<button class="mdc-button--dense" id="menu">
+						<span class="mdc-button__label">Menu</span>
+					</button>
+			</div>
+		</div>
+	</div> -->
+
+	<div class="mdc-layout-grid">
+		<div class="mdc-layout-grid__inner">
+			
+			<button class="mdc-button--dense" id="menu">
+						<span class="mdc-button__label">Menu</span>
+					</button>
+			<div class="mdc-layout-grid__cell--span-2"></div>
+			<div class="mdc-layout-grid__cell--span-3">
+
+				<div class="mdc-menu mdc-menu-surface" tabindex="-1">
+					<ul class="mdc-list" role="menu" aria-hidden="true" aria-orientation="vertical">
+						<li class="mdc-list-item" role="menuitem">
+							<span class="mdc-list-item__text">Back</span>
+						</li>
+						<li class="mdc-list-item" role="menuitem">
+							<span class="mdc-list-item__text">forward</span>
+						</li>
+						<li class="mdc-list-item" role="menuitem">
+							<span class="mdc-list-item__text">Reload</span>
+						</li>
+						<hr>
+						<li class="mdc-list-item" role="menuitem">
+							<span class="mdc-list-item__text">Save as</span>
+						</li>
+						<li class="mdc-list-item" role="menuitem">
+							<span class="mdc-list-item__text">Print</span>
+						</li>
+						<li class="mdc-list-item" role="menuitem">
+							<span class="mdc-list-item__text">Translate</span>
+						</li>
+						<hr>
+						<li class="mdc-list-item" role="menuitem">
+							<span class="mdc-list-item__text">view page source</span>
+						</li>
+						<li class="mdc-list-item" role="menuitem">
+							<span class="mdc-list-item__text">inspect</span>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+
+		<!-- material chip -->
+		<div class="mdc-layout-grid">
+			<div class="mdc-layout-grid__inner">
+				<div class="mdc-layout-grid__cell--span-2"></div>
+				<div class="mdc-layout-grid__cell--span-6">
+					<div class="mdc-card c1">
+						<div class="mdc-chip-set">
+							<div class="mdc-chip" tabindex="0">
+								<div class="mdc-chip__text">Chip one</div>
+								<i class="material-icons mdc-list-item__graphic" aria-hidden="true">watch</i>
+							</div>
+							<div class="mdc-chip" tabindex="0">
+								<div class="mdc-chip__text">Chip two</div>
+								<i class="material-icons mdc-list-item__graphic" aria-hidden="true">mouse</i>
+							</div>
+							<div class="mdc-chip" tabindex="0">
+								<div class="mdc-chip__text">Chip three</div>
+								<i class="material-icons mdc-list-item__graphic" aria-hidden="true">headset</i>
+							</div>
+							<div class="mdc-chip" tabindex="0">
+								<div class="mdc-chip__text">Chip four</div>
+								<i class="material-icons mdc-list-item__graphic" aria-hidden="true">scanner</i>
+							</div>
+							<div class="mdc-chip" tabindex="0">
+								<div class="mdc-chip__text">Chip five</div>
+								<i class="material-icons mdc-list-item__graphic" aria-hidden="true">smartphone</i>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- snackbar -->
+		<div class="mdc-layout-grid">
+			<div class="mdc-layout-grid__inner">
+				<div class="mdc-layout-grid__cell--span-3"></div>
+				<div class="mdc-layout-grid__cell--span-5">
+					<button class="mdc-button--dense" id="snackbar1">
+						<span class="mdc-button__label">Baseline</span>
+					</button>
+					<div class="mdc-snackbar  mdc-snackbar--stacked snack1">
+						<div class="mdc-snackbar__surface">
+							<div class="mdc-snackbar__label"
+							role="status"
+							aria-live="polite">
+							Can't send photo. Retry in 5 seconds.
+						</div>
+						<div class="mdc-snackbar__actions">
+							<button type="button" class="mdc-button mdc-snackbar__action" id="snackbar1">Retry</button>
+							<button type="button" class="mdc-button mdc-snackbar__action" id="snackbar1"><i class="material-icons mdc-list-item__graphic" aria-hidden="true">close</i></button>
+						</div>
+					</div>
+				</div>
+				<button class="mdc-button--dense" id="snackbar2">
+					<span class="mdc-button__label">Leading</span>
+				</button>
+				<div class="mdc-snackbar  mdc-snackbar--stacked snack2">
+					<div class="mdc-snackbar__surface">
+						<div class="mdc-snackbar__label"
+						role="status"
+						aria-live="polite">
+						Can't send photo. Retry in 5 seconds.
+					</div>
+					<div class="mdc-snackbar__actions">
+						<button type="button" class="mdc-button mdc-snackbar__action" id="snackbar2">Retry</button>
+						<button type="button" class="mdc-button mdc-snackbar__action" id="snackbar2"><i class="material-icons mdc-list-item__graphic" aria-hidden="true">close</i></button>
+					</div>
+				</div>
+			</div>
+
+			<button class="mdc-button--dense" id="snackbar3">
+				<span class="mdc-button__label">Snacked</span>
+			</button>
+			<div class="mdc-snackbar  mdc-snackbar--stacked snack3">
+				<div class="mdc-snackbar__surface">
+					<div class="mdc-snackbar__label"
+					role="status"
+					aria-live="polite">
+					Can't send photo. Retry in 5 seconds.
+				</div>
+				<div class="mdc-snackbar__actions">
+					<button type="button" class="mdc-button mdc-snackbar__action" id="snackbar3">Retry</button>
+					<button type="button" class="mdc-button mdc-snackbar__action" id="snackbar3"><i class="material-icons mdc-list-item__graphic" aria-hidden="true">close</i></button>
+					
+				</div>
+			</div>
+		</div>
+
+	</div>
+</div>
+</div>
+
+
+
+<script src="https://unpkg.com/material-components-web@latest/dist/material-components-web.min.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>	
+<script type="text/javascript" src="javascript/custom.js"></script>
+</body>
+</html>
+
